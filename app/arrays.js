@@ -22,7 +22,6 @@ exports.arraysAnswers = {
         i--;
       }
     }
-    console.log(arr);
     return arr;
   },
 
