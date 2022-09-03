@@ -14,7 +14,6 @@ exports.regexAnswers = {
   },
 
   captureThreeNumbers: function (str) {
-    console.log(str.match(/\d{3}/im));
     return str.match(/\d{3}/gim) ? str.match(/\d{3}/gim)[0] : false;
   },
 

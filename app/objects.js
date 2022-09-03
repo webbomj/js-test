@@ -15,7 +15,6 @@ exports.objectsAnswers = {
     for (let [key, value] of x) {
       result.push(`${key}: ${value}`);
     }
-    exports.console.log(x);
     return result;
   },
 };
